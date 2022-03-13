@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
-@import url("fontawesome-all.min.css");
 
 /*
 	Miniport by HTML5 UP
@@ -1790,6 +1789,7 @@ input, select, textarea {
 				display: block;
 				width: 48px;
 				height: 48px;
+				font-size: 46px;
 				border-radius: 6px;
 				top: 0;
 				position: relative;
@@ -1809,7 +1809,7 @@ input, select, textarea {
 					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
 					color: #2E2E2E !important;
 					display: block;
-					font-size: 26px;
+					font-size: 46px;
 					height: 48px;
 					line-height: 48px;
 					text-align: center;
