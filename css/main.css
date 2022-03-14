@@ -1690,6 +1690,9 @@ input, select, textarea {
 		font-size: 1.1em;
 		max-width: 24em;
 	}
+	input[type="submit"].whatsapp{
+		background-color: lightgreen;
+	}
 
 		input[type="button"]:hover,
 		input[type="submit"]:hover,
@@ -1698,6 +1701,10 @@ input, select, textarea {
 		.button:hover {
 			background-color: #43bff0;
 			color: #fff !important;
+		}
+
+		input[type="submit"].whatsapp:hover{
+			background-color: rgb(101, 255, 101);
 		}
 
 		input[type="button"]:active,

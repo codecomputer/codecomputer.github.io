@@ -74,28 +74,20 @@
 			<article id="contactos" class="wrapper style4">
 				<div class="container medium">
 					<header>
-						<h2>Contacto</h2>
+						<h2>Contacto <i class="fa-brands fa-whatsapp"></i></h2>
 					</header>
 					<div class="row">
 						<div class="col-12">
-							<form method="post" action="#">
+							<form method="get" target="blank" action="https://api.whatsapp.com/send">
+								<input type="hidden" name="phone" value="584161109682">
 								<div class="row">
-									<div class="col-6 col-12-small">
-										<input type="text" name="name" id="name" placeholder="Name" />
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="text" name="email" id="email" placeholder="Email" />
-									</div>
 									<div class="col-12">
-										<input type="text" name="subject" id="subject" placeholder="Subject" />
-									</div>
-									<div class="col-12">
-										<textarea name="message" id="message" placeholder="Message"></textarea>
+										<textarea name="text" id="text" placeholder="Mensaje..."></textarea>
 									</div>
 									<div class="col-12">
 										<ul class="actions">
-											<li><input type="submit" value="Send Message" /></li>
-											<li><input type="reset" value="Clear Form" class="alt" /></li>
+											<li><input type="submit" value="Enviar mensaje" class="whatsapp" /></li>
+											<li><input type="reset" value="Limpiar formulario" class="alt" /></li>
 										</ul>
 									</div>
 								</div>
